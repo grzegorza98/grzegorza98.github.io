@@ -1,35 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
-  <body>
-    <br />
-    <br />
-    <br />
 
-    <div>
-      <img src="https://picsum.photos/seed/picsum/200/300" alt="Ten obrazek jest niedostępny">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <br />
+  <br />
+  <br />
+
+  <div>
+    <p style="width: 300px; float: right;">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+      Lorem Ipsum has
+      been the industry's
+      standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a
+      type specimen book. </p>
+    <img style="float: right;" src="https://picsum.photos/seed/picsum/200/300" alt="Ten obrazek jest niedostępny">
+    <br>
+    <br>
+    <span>Write me a message</span>
+    <!-- Span jest elementem liniowym(zostanie dodany do tej samej lini)-->
+    <span>Please do not spam me.</span>
+
+    <form>
+      First name <br />
+      <input type="text" required /><br />
+      Email: <br />
+      <input type="email" required /><br />
+      Message: <br />
+      <textarea cols="30" rows="5" required>Your message</textarea>
       <br>
       <br>
-      <span>Write me a message</span>
-      <!-- Span jest elementem liniowym(zostanie dodany do tej samej lini)-->
-      <span>Please do not spam me.</span>
+      <input id="submitButton" type="submit" value="Submit">
+    </form>
+  </div>
+</body>
 
-      <form>
-        First name <br />
-        <input type="text" required/><br />
-        Email: <br />
-        <input type="email" required/><br />
-        Message: <br />
-        <textarea cols="30" rows="5" required>Your message</textarea>
-        <br>
-        <br>
-        <input id="submitButton" type="submit" value="Submit">
-      </form>
-    </div>
-  </body>
 </html>

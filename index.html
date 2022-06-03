@@ -1,54 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My first website</title>
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <header>
-      <h1>Welcome to my&nbsp;first&nbsp;website!</h1>
-      <a href="contact.html">Find in google</a>
-      <br />
-    </header>
 
-    <article>
-      <h3>This is my first blog post</h3>
-      <p>This is the content of my first blog post</p>
-      <br />
-    </article>
-    <article>
-      <h3>This is the content of my second post</h3>
-      <p>This is the content of my second blog post</p>
-      <br />
-    </article>
-    <article>
-      <h3>This is the content of my third post</h3>
-      <p>
-        This is the <mark>content</mark> of my third blog post <br />
-        Continue the content after <i>breaking line.</i><sup class="supElement" style="color: red">*</sup>
-      </p>
-      <small><sup>*</sup>Another sentence </small>
-    </article>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My first website</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito" />
+  <link rel="stylesheet" href="style.css" />
+</head>
 
-    <footer></footer>
+<body>
+  <header>
+    <h1>Welcome to my first website!</h1>
+    <a href="contact.html">Find in google</a>
+  </header>
 
-    <br />
-    <br />
-    <br />
-    <br />
+  <div id="main-content">
 
-    <div>
-      My skills
+    <section id="articles">
+      <article>
+        <h3>This is my first blog post</h3>
+        <p>This is the content of my
+          first blog post</p>
+      </article>
+
+      <article>
+        <h3>This is the content of my second post</h3>
+        <p>This is the content of my
+          second blog post</p>
+      </article>
+
+      <article>
+        <h3>This is the content of my third post</h3>
+        <p>
+          This is the <mark>content</mark> of my third blog post <br />
+          Continue the content after <i>breaking line.</i><sup class="supElement">*</sup>
+        </p>
+        <small><sup class="supElement">*</sup>Another sentence </small>
+      </article>
+
+    </section>
+
+    <div id="skills">
+      <b style="font-size: 34px; font-weight: 900; color: #20d0ff;">My skills</b>
       <!--Div jest elementem blokowym-->
-      <ul>
-        <li>I know HTML :)</li>
-        <li>I do not know CSS :(</li>
-      </ul>
-
-      <table border="1">
+      <table>
         <tr>
           <th>Technology</th>
           <th>Level</th>
@@ -59,13 +56,21 @@
         </tr>
         <tr>
           <td>CSS</td>
-          <td>0 :(</td>
+          <td>good :)</td>
         </tr>
       </table>
+
     </div>
-    <footer>
-      <div>Footer area. &copy; <strong>Me</strong> & <b>My Tutor</b></div>
-    </footer>
-    <script src="scripts.js"></script>
-  </body>
+
+  </div>
+
+  <footer>
+    <div>
+      Footer area. &copy; <strong>Me</strong> & <b>My Tutor</b>
+      <p>Another content of the footer</p>
+    </div>
+  </footer>
+  <script src="scripts.js"></script>
+</body>
+
 </html>
