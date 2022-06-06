@@ -27,18 +27,19 @@
     <!-- Span jest elementem liniowym(zostanie dodany do tej samej lini)-->
     <span>Please do not spam me.</span>
 
-    <form>
+    <form onsubmit="console.log('sdf')">
       First name <br />
-      <input type="text" required /><br />
+      <input name="firstName" type="text" required /><br />
       Email: <br />
-      <input type="email" required /><br />
+      <input name="email" type="email" required /><br />
       Message: <br />
-      <textarea cols="30" rows="5" required>Your message</textarea>
+      <textarea name="message" cols="30" rows="5" required>Your message</textarea>
       <br>
       <br>
       <input id="submitButton" type="submit" value="Submit">
     </form>
   </div>
+  <script type="module" src="scripts.js"></script>
 </body>
 
 </html>

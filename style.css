@@ -66,6 +66,8 @@ div#main-content {
 
 a {
   color: #20d0ff;
+  font-size: 30px;
+  font-weight: 900;
 }
 
 a:hover {
